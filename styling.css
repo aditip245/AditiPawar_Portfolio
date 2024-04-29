@@ -1,0 +1,82 @@
+.imgContainer{
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        width: 400px;
+        height: 400px;
+      
+}
+img.img-thumbnail{
+    padding-left:10px;
+    padding-top:10px;
+    margin:20px;
+    
+    }
+
+ul.nav{
+    width: 100;
+    background-color:beige;
+}
+
+.imgLinks{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+   
+}
+
+button.btn{
+    padding-left: 20px;
+    
+}
+
+button.btn2{
+    padding-left: 20px;
+    
+}
+ 
+.bi-linkedin{
+    width:50px;
+    height:50px;
+    padding-left: 2px;
+    fill:currentColor;
+}
+
+
+.bi-github{
+    width:50px;
+    height:50px;
+    padding-left: 2px;
+    fill:currentColor;
+    
+
+}
+
+.card{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    width: 700px;
+    height: 30px;
+    padding-top: 2px;
+    margin: 20px;
+    
+}
+
+.card-header{
+    width: 700px;
+    height: 30px;
+}
+
+.card-body{
+    width: 700px;
+    height: 200px;  
+}
+
+
+.Projects{
+    width: 700px;
+    height: 30px;
+    margin-top: 200px;
+    display: block;
+}
