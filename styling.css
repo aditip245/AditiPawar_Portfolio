@@ -1,28 +1,36 @@
+body{
+    height: 100%;
+    width: 100%;
+}
 .imgContainer{
         display: flex;
-        align-items: left;
-        justify-content: left;
-        width: 300px;
-        height: 300px;
+        height: 100%;
+        width: 100%;
       
 }
-img.img-thumbnail{
-    padding-left:10px;
-    padding-top:10px;
-    margin:20px;
-    
-    }
+.mypiclogo{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 30px;
+    height: 500px;
+    width: 200px;
+   
+}
+
 
 nav.ul{
-    width: 100;
-    background-color:beige;
+    width: 100%;
+    background-color:rgb(31, 31, 24);
 }
 
 
 .imgLinks{
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: left;
+    margin-left: 50px;
+    padding: 3px;
    
 }
 
@@ -69,17 +77,13 @@ button.btn3{
     display: flex;
     align-items: right;
     justify-content: right;
-    width: 700px;
-    height: 30px;
-    padding-top: 2px;
-    margin: 20px;
+    width: 100%;
+    height: 100%;
+    margin-left: 20%;
     
 }
 
-.card-header{
-    width: 700px;
-    height: 30px;
-}
+
 
 .card-body{
     width: 700px;
@@ -88,15 +92,27 @@ button.btn3{
 
 
 .Projects{
-    width: 700px;
+    width: 100%;
     height: 30px;
-    margin-top: 200px;
+    margin-top: 20%;
+    
     display: block;
 }
 
 .Projectheading{
     text-align: center;
+    margin-top: 10%;
+
+
 }
+
+
+
+  /* On mouse-over, add a deeper shadow */
+  .cardProjects:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
 
 .col{
     padding-block: 10px;
@@ -104,17 +120,25 @@ button.btn3{
 }
 
 .cardProjects{
-    width: 15rem;
+    height: 400px;
+    width: 300px;
     margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
 }
 
 .card-bodyprojects{
     outline-color: black;
-    height: 30px;
+    height: 80px;
     width: 300px;
     padding:3rem;
     margin-bottom: 3rem;
-    display: block;
-    align-items: center;
+    display: left;
+    align-items: left;
     justify-content: left;
 }
+
+
+
+
